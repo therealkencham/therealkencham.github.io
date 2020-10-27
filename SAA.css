@@ -1,0 +1,204 @@
+
+body {
+  max-width: 1300px;
+  margin: auto;
+  font-family: 'Cookie', cursive;
+  background-image: url("C:/Users/c_x_k/Downloads/leaves-background-with-metallic-foil/background leaves.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+.header{
+  position: absolute;
+
+}
+
+.header-links{
+  display: inline-block;
+  position: relative;
+  margin-top: 280px;
+  margin-left: 470px;
+
+}
+.btn{
+  color: #6D3F1D;
+  font-size: 30px;
+  padding: 10px 20px;
+
+}
+
+.instagram{
+  margin-left: 230px;
+}
+
+.menu-bar{
+  margin-top: 30px;
+  width: 1300px;
+  background-color: #F5D0D0;
+  font-size: 28px;
+  height: auto;
+}
+
+.menu{
+  display: inline-block;
+  padding: 20px 30px 20px 30px;
+  max-width: inherit;
+  color: black;
+
+}
+.wantcake{
+  display: inline-block;
+  padding: 20px 30px 20px 30px;
+  margin-left: 200px;
+  color: #6D3F1D;
+  transition: all 1s;
+}
+
+.menu:hover{
+  background-color: #f2dedc;
+  transition: .5s;
+}
+.wantcake:hover{
+  background-color: #fc796d;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+footer{
+  max-width: 1300px;
+
+  background-color: #F5D0D0;
+  padding-bottom: 20px;
+}
+
+.motto{
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.creator{
+  display: inline-block;
+  margin-left: 350px;
+}
+
+.creatorlink{
+  color: #6D3F1D;
+}
+
+.information{
+  display:inline-block;
+  float: right;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+.contact{
+  color: #6D3F1D;
+  padding-left: 20px;
+}
+
+.caketypes{
+  margin-top: 20px;
+}
+
+.cake{
+  display: inline-block;
+  width: 33%;
+  position: relative;
+}
+
+.cake-icon h1, p{
+  text-align: center;
+}
+
+.cake-icon h1{
+  font-size: 50px;
+}
+
+.cake-icon p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #6D3F1D;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+.cake-icon img{
+  border-radius: 30px;
+}
+
+.icontext{
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 220px;
+  left:10%;
+}
+
+.icontext p{
+  display: none;
+}
+
+.cake-icon img:hover + .icontext p{
+  display:block;
+  opacity: 1;
+  animation: fade;
+
+}
+
+.cake-icon img:hover{
+  opacity: .2;
+  transition: 1s;
+}
+
+.about-container{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.aboutus{
+  border-radius: 5px;
+}
